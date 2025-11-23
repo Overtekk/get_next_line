@@ -33,12 +33,22 @@ Completed on **12/11/2025** without bonus.
 
 ## 🔷 Usage
 
-- First, clone this repository.
-
-I have provided a complete `main` to test your get_next_line. You can run it using this command (don't forget to define a `BUFFER_SIZE` if needed, though my code handles 3 by default):\
-```cc -Wall -Werror -Wextra main/main.c get_next_line.c get_next_line_utils.c```\
-The fist test is interactive. You can choose which file you want to test using:\
-```./a.out main/simple_test.text```\
-I've provided a lot of `.txt` files to test. Alongside, inside the main, there are 2 more tests you need to uncomment. The first test checks an invalid FD. The second one calls an empty file twice. I will not tell you why those tests exist. It's up to you to learn and try.
+### First, clone this repository.
+```bash
+https://github.com/Overtekk/so_long.git
+```
+### Compile with make
+```bash
+make
+```
+### I have provided a complete `main` to test your get_next_line. You can run it using this command *(don't forget to define a `BUFFER_SIZE` if needed, though my code handles 3 by default)*:
+```bash
+cc -Wall -Werror -Wextra main/main.c get_next_line.c get_next_line_utils.c
+```
+### The fist test is **interactive***. You can choose which file you want to test using:
+```bash
+./a.out main/simple_test.text
+```
+### I've provided a lot of `.txt` files to test. Alongside, inside the main, there are 2 more tests you need to uncomment. The first test checks an invalid FD. The second one calls an empty file twice. I will not tell you why those tests exist. It's up to you to learn and try.
 
 ---
