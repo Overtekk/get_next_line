@@ -35,7 +35,7 @@ Completed on **12/11/2025** without bonus.
 
 ### First, clone this repository.
 ```bash
-https://github.com/Overtekk/so_long.git
+git@github.com:Overtekk/get_next_line.git
 ```
 
 ### I have provided a complete `main` to test your get_next_line. You can run it using this command *(don't forget to define a `BUFFER_SIZE` if needed, though my code handles 3 by default)*:
