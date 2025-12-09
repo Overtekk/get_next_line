@@ -37,10 +37,7 @@ Completed on **12/11/2025** without bonus.
 ```bash
 https://github.com/Overtekk/so_long.git
 ```
-### Compile with make
-```bash
-make
-```
+
 ### I have provided a complete `main` to test your get_next_line. You can run it using this command *(don't forget to define a `BUFFER_SIZE` if needed, though my code handles 3 by default)*:
 ```bash
 cc -Wall -Werror -Wextra main/main.c get_next_line.c get_next_line_utils.c
